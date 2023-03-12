@@ -1,0 +1,177 @@
+body{
+    margin:0;
+    font-family: Arial;
+}
+
+.navbar{
+    background-color: #5782c6;
+}
+.background_color{
+    background-color: #e1e2e5;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin:0 auto;
+}
+.logo{
+    color:white;
+}
+.searching{
+    width: 70%;
+}
+.searching input{
+    color:white;
+    background-color: #173a73;
+    border:0;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.info{
+    display:flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+.pages{
+    width: 15%;
+}
+.pages a{
+    text-decoration: none;
+    color: rgb(47, 41, 122);
+    line-height: 30px;
+}
+.profil{
+    width: 25%;
+}
+.profil_img{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.profil_img img{
+    width: 100%;
+}
+.profil_img button{
+    margin-top: 10px;
+    background-color: #dadbdc;
+    border: 0;
+    border-radius: 3px;
+    padding:10px;
+    color: #173a73;
+}
+.friends_list{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 33%;
+    font-size: 10px;
+}
+
+.photo div img{
+    width: 50%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.posts{
+    width: 55%;
+}
+.profil_post{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.name h3{
+    margin: 0px;
+}
+
+#status{
+    color:gray;
+}
+.info_table td{
+    min-width: 200px;
+
+}
+.info_number{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    color: #455e89;
+}
+.info_number div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.my_photos{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.my_photos a{
+    text-decoration: none;
+    color: black;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.images div{
+    width: 25%;
+    margin: 5px;
+}
+.images div img{
+    width: 100%;
+    min-height: 150px;
+}
+.my_post{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.my_post_profil{
+    display: flex;
+}
+.post_img{
+    width: 7%;
+    margin-right: 10px;
+}
+.post_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
